@@ -1,95 +1,232 @@
 
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 body{
     margin: 0;
-}
-.container{
-    width: 1440PX;
-    height: 80px;
-    margin:0 auto;
-    display: flex;
-    align-items: center;
 }
 header{
     display: flex;
     align-items: center;
     width: 100%;
 }
+.container{
+    width: 1440px;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.container2{
+    width: 1440px;
+    height: 640px;
+    background-size: 1440px;
+    background-repeat: no-repeat;
+    background-image: url(samsung.webp);
+    margin-left: 240px;
+}
+.container2 h2{
+    color: white;
+    font-family: 'Roboto';
+    margin: 0;
+    font-size: 48px;
+}
+.container2 p{
+    color: white;
+    font-size: 18px;
+    font-family: 'Roboto';
+}
+.cont2{
+    width: 620px;
+    padding-top: 200px;
+    padding-left: 90px;
+}
+.cont2 nav{
+    padding-top: 30px;
+}
+.cont2 nav a{
+    font-size: 14px;
+    color: white;
+    padding-right: 20px;
+}
+.cont2 button{
+    background-color: white;
+    font-weight: 700;
+    border-radius: 20px;
+    font-family: 'Roboto';
+    border: 0;
+    padding: 10px 24px 11px;
+    text-decoration: none;
+}
+.container3{
+    width: 1440px;
+    height: 170px;
+    margin-left: 240px;
+    display: flex;
+    justify-content: center;
+}
+.container3 h2{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 38px;
+    padding-top: 15px;
+    margin-bottom: 33px;
+    flex-direction: column;
+    
+}
+.container3 nav a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 20px;
+}
+.logo{
+    margin-right: 64px;
+}
+nav{
+    font-family: 'Roboto';
+    font-weight: 500;
+}
 .naw{
     display: flex;
     justify-content: space-between;
     width: 100%;
 }
-.logo{
-    margin-right: 64px ;
-}
-nav{
-    font-family: 'Roboto';
-    font-weight: 500;
+.naw3{
+    display: flex;
 }
 .naw3 img{
     width: 24px;
     height: 24px;
     padding: 8px;
 }
-.naw3{
-    display: flex;
-}
 .naw1 nav a{
     padding: 0 8px;
     text-decoration: none;
     color: black;
     font-size: 14px;
-    
 }
 .naw2 nav a{
-    padding: 0 8px;
     text-decoration: none;
+    padding: 0 8px;
     color: black;
     font-size: 14px;
-    
 }
 .bar{
-    height: 40px;
     display: flex;
+    height: 40px;
     text-align: center;
     align-items: center;
+    justify-content: center;
     background-color: #2189FF;
     color: white;
     font-family: 'Roboto';
     font-weight: 300;
-    justify-content: center;
 }
-.container2 img{
+.container4{
     width: 1440px;
-    display: flex;
-    align-items: center;  
-    justify-content: center;
-    margin-left: 240px;
-}
-.container3{
-    width: 1440PX;
     height: 790px;
-    display: flex;
-    justify-content: center;
-    background-color: red;
     margin-left: 240px;
+    display: flex;
 }
-.container3 h2{
+.galaxys img{
+    border-radius: 20px;
+    margin-left: 20px;
+}
+.galaxys2 img{
+
+}
+.galaxys2{
+    margin-left: 20px;
+}
+.container5{
+    background-image: url(galaxy.avif);
+    height: 810px;
+    width: 1440px;
+    margin-left: 240px;
+    
+}
+
+.container5 h2{
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 38px;
-    margin-bottom: 16px;
     padding-top: 15px;
+    margin-bottom: 33px;
+    flex-direction: column;
 }
-.container3 ul li a{
+.container5 nav a{
     text-decoration: none;
     color: black;
-    font-family: Roboto;
+    font-family: 'Roboto';
+    font-size: 18px;
     font-weight: 500;
+    margin-left: 20px;
 }
-.container3 ul{
-    list-style: none;
+.h25 h2{
+    margin-top: 500px;
+    font-size: 48px;
 }
-    
+.h23 p{
+    font-family: 'Roboto';
+    margin-top: -20px;
+}
+.nav5 nav a{
+    font-size: 14px;
+    color: black;
+    padding-right: 20px;
+}
+.nav5 button{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-weight: 700;
+    border-radius: 20px;
+    font-family: 'Roboto';
+    border: 0;
+    padding: 10px 24px 11px;
+    text-decoration: none;
+}
+.tv{
+    background-image: url(komputerlogo.webp);
+    margin-top: -140px;
+    width: 1440px;
+    height: 800px;
+    background-size: 1440px;
+    background-repeat: no-repeat;
+    margin-left: 240px;
+}
+.container6 h2{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 38px;
+    padding-top: 15px;
+    margin-bottom: 33px;
+    flex-direction: column;
+}
+.container6 nav a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 20px;
+}
+.h26 h2{
+    margin-top: 10px;
+    font-size: 48px;
+}
+.nav6 button{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-weight: 700;
+    border-radius: 20px;
+    font-family: 'Roboto';
+    border: 0;
+    padding: 10px 24px 11px;
+    text-decoration: none;
+    margin-top: -15px;
+}
+.tv2{
+    font-size: 48px;
+    padding-top: 630px;
+}
