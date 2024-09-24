@@ -187,13 +187,16 @@ nav{
     text-decoration: none;
 }
 .tv{
-    background-image: url(komputerlogo.webp);
+    background-image: url(tv.avif);
     margin-top: -140px;
     width: 1440px;
     height: 800px;
     background-size: 1440px;
     background-repeat: no-repeat;
     margin-left: 240px;
+}
+.tv2{
+    padding-top: 630px;
 }
 .container6 h2{
     font-family: 'Roboto';
@@ -224,9 +227,180 @@ nav{
     border: 0;
     padding: 10px 24px 11px;
     text-decoration: none;
-    margin-top: -15px;
 }
-.tv2{
+.container7{
+    width: 1440px;
+    height: 810px;
+    background-size: 1440px;
+    background-repeat: no-repeat;
+    background-image: url(samsung2g.webp);
+    margin-left: 240px;
+}
+.c7{
+    height: 810px;
+    position: relative;
+}
+.c7 nav a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 40px;
+}
+.c7 h2{
+    color: white;
+    font-family: 'Roboto';
+    font-weight: 700;
     font-size: 48px;
-    padding-top: 630px;
+    padding-top: 48px;
+    margin-bottom: 5px;
+    flex-direction: column;
+}
+.c7 button{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    border-radius: 20px;
+    font-family: 'Roboto';
+    border: 0;
+    padding: 10px 24px 11px;
+    text-decoration: none;
+}
+.c7 nav a{
+    font-size: 14px;
+    color: white;
+    padding-right: 20px;
+}
+.c7 p{
+    color: white;
+    font-size: 18px;
+    font-family: 'Roboto';
+    align-items: center;
+}
+.c73{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.container8 h2{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 38px;
+    padding-top: 15px;
+    margin-bottom: 33px;
+    text-align: center;
+}
+.c8{
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+    font-family: 'Roboto';
+}
+.c81{
+    margin-right: 24px;
+    background-color: #F7F7F7;
+    width: 264px;
+    height: 645px;
+    border-radius: 20px;
+}
+.c82{
+    margin-right: 24px;
+    background-color: #F7F7F7;
+    width: 264px;
+    height: 645px;
+    border-radius: 20px;
+}
+.c83{
+    margin-right: 24px;
+    background-color: #F7F7F7;
+    width: 264px;
+    height: 645px;
+    border-radius: 20px;
+}
+.c84{
+    margin-right: 24px;
+    background-color: #F7F7F7;
+    width: 264px;
+    height: 645px;
+    border-radius: 20px;
+}
+.c8 img{
+    display: flex;
+    padding: 0px 24px;
+    margin-top: 48px;
+}
+.c8 p{
+    font-size: 16px;
+    text-align: center;
+    font-weight: 600;
+}
+.c8 h5{ 
+    font-weight: 300;
+    margin-top: 40px;
+    text-align: center;
+}
+.c8b{
+    display: flex;
+    justify-content: center;
+}
+.c8b button{
+    width: 18px;
+    height: 18px;
+    border-radius: 100%;
+    margin: 0px 10px;
+    border: solid 1px black;
+}
+.cb81{
+    background-color: rgb(179, 141, 141);
+}
+.cb82{
+    background-color: rgb(155, 155, 155);
+}
+.cb83{
+    background-color: rgb(231, 217, 190);
+}
+.c8 h3{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 110px;
+}
+.c8 a{
+    margin: -15px 0px;
+    display: flex;
+    justify-content: center;
+    color: #006BEA;
+    font-size: 12px;
+}
+.butc8{
+    margin: 55px 15px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-weight: 700;
+    border-radius: 20px;
+    font-family: 'Roboto';
+    border: 0;
+    padding: 10px 24px 11px;
+    text-decoration: none;
+    width: 232px;
+    height: 40px;
+}
+.container9 h2{
+    margin: 50px 0px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 38px;
+    padding-top: 15px;
+    margin-bottom: 33px;
+    text-align: center;
+}
+.container9 img{
+   border-radius: 25px;
+   margin-left: 240px;
+}
+.c92{
+    
+    
 }
